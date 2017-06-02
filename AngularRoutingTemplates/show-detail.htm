@@ -1,0 +1,18 @@
+<div>
+  Enter the id: <input type="text" ng-model="id"/>
+  <button ng-click="getEmployeeDetails()">submit</button>
+  
+<table class="table table-condensed">
+  <tbody>
+    <th>Employee id</th>
+    <th>Employee name</th>
+    <th>Employee number</th>
+    <th>Employee salary</th>
+    <tr>
+      <td>{{result.data.eid}}</td>
+      <td>{{result.data.name}}</td>
+      <td>{{result.data.empno}}</td>
+      <td>{{result.data.sal}}</td>
+    </tr>
+  </tbody>
+</table>
